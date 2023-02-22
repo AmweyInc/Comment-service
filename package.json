@@ -1,0 +1,38 @@
+{
+  "name": "comment-app",
+  "version": "1.0.0",
+  "description": "comment application ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "comment",
+    "node",
+    "express",
+    "graphql",
+    "sequelize",
+    "jwt",
+    "kafka",
+    "elasticsearch"
+  ],
+  "author": "Kirill 'Amwey' Telegin",
+  "license": "MIT",
+  "dependencies": {
+    "@elastic/elasticsearch": "^7.10.2",
+    "apollo-server-express": "^2.25.2",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-jwt": "^6.0.0",
+    "graphql": "^15.5.1",
+    "jsonwebtoken": "^8.5.1",
+    "kafka-node": "^5.0.0",
+    "mysql2": "^2.3.0",
+    "sequelize": "^6.6.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
